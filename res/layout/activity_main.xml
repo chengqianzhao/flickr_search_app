@@ -19,7 +19,8 @@
             android:layout_width="0sp"
             android:layout_height="wrap_content"
             android:layout_marginTop="30sp"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:hint="@string/activity_main_search" />
 
         <Button
             android:layout_width="wrap_content"
@@ -31,10 +32,8 @@
     <LinearLayout
         android:id="@+id/fragment_container"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" 
-        android:orientation="vertical"
-        >
-        
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
     </LinearLayout>
 
 </LinearLayout>
